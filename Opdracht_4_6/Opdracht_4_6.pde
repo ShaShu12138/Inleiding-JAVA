@@ -1,0 +1,10 @@
+float a = 37;
+float b = 51;
+float c = 19;
+float gemiddelde = (a+b+c)/3;
+gemiddelde*=100;
+gemiddelde=(int)gemiddelde;
+gemiddelde/=10;
+gemiddelde=round(gemiddelde);
+gemiddelde/=10;
+println (gemiddelde);
